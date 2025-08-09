@@ -1,5 +1,5 @@
 <!-- Perfil de GitHub de danteRub -->
-<h1 align="center">👋 Hola, soy <b>Dante Rub</b></h1>
+<h1 align="center">👋 Hola, soy <b>DanteRub</b></h1>
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Menlo&weight=700&pause=1200&center=true&vCenter=true&width=600&lines=Desarrollador+Full+Stack;Python+%7C+FastAPI+%7C+Tauri;C%23+.NET+%7C+Rust;Clean+Code+%7C+Arquitectura+escalable" alt="typing intro" />
 </p>
