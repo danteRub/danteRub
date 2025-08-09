@@ -65,8 +65,6 @@
 
 ## 📫 Contacto
 - 📧 **pablo.mateospe@gmail.com**
-- 💼 LinkedIn: *enlázame en tu perfil*
-- 🐦 X/Twitter: *@tuusuario*
 
 ---
 
