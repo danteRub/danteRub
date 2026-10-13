@@ -48,5 +48,9 @@
 
 ### Open source & cacharreo
 
-Fuera del trabajo vivo en la terminal: Arch y NixOS. En público:
+<p align="center">
+  <img src="https://raw.githubusercontent.com/danteRub/danteRub/main/assets/terminal.svg" alt="pablo@mateOS — fastfetch" width="100%" />
+</p>
+
+Fuera del trabajo vivo en la terminal: Arch y NixOS, y **mateOS**, mi escritorio propio. En público:
 [**arch-btrfs-installer**](https://github.com/danteRub/arch-btrfs-installer) — un instalador de Arch sobre btrfs.
