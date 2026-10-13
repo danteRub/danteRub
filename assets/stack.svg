@@ -21,6 +21,7 @@
     <!-- LENGUAJES -->
     <text x="64" y="46" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="12" fill="#71717a" letter-spacing="3">LENGUAJES</text>
     <g font-size="15.5" fill="#e4e4e7">
+      <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.15s" fill="freeze"/>
       <text x="64" y="80">Python</text>
       <text x="64" y="106">TypeScript</text>
       <text x="64" y="132">C#</text>
@@ -32,6 +33,7 @@
     <!-- BACKEND -->
     <text x="300" y="46" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="12" fill="#71717a" letter-spacing="3">BACKEND</text>
     <g font-size="15.5" fill="#e4e4e7">
+      <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.3s" fill="freeze"/>
       <text x="300" y="80">FastAPI</text>
       <text x="300" y="106">.NET · Aspire</text>
       <text x="300" y="132">PostgreSQL</text>
@@ -43,6 +45,7 @@
     <!-- FRONTEND & APPS -->
     <text x="548" y="46" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="12" fill="#71717a" letter-spacing="3">FRONTEND &amp; APPS</text>
     <g font-size="15.5" fill="#e4e4e7">
+      <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.45s" fill="freeze"/>
       <text x="548" y="80">React · Next.js</text>
       <text x="548" y="106">Astro · Tailwind</text>
       <text x="548" y="132">Tauri</text>
@@ -54,6 +57,7 @@
     <!-- INFRA & IA -->
     <text x="792" y="46" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="12" fill="#71717a" letter-spacing="3">INFRA &amp; IA</text>
     <g font-size="15.5" fill="#e4e4e7">
+      <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.6s" fill="freeze"/>
       <text x="792" y="80">Docker · Railway</text>
       <text x="792" y="106">Supabase</text>
       <text x="792" y="132">Servidores MCP</text>
