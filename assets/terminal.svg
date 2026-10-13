@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" fill="none" role="img" aria-label="pablo@mateOS — fastfetch">
+  <defs>
+    <linearGradient id="tbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#09090b"/>
+      <stop offset="1" stop-color="#101016"/>
+    </linearGradient>
+    <pattern id="tgrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#ffffff" stroke-opacity="0.03"/>
+    </pattern>
+    <clipPath id="tround"><rect width="1000" height="300" rx="18"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#tround)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">
+    <rect width="1000" height="300" fill="url(#tbg)"/>
+    <rect width="1000" height="300" fill="url(#tgrid)"/>
+
+    <!-- Barra de título -->
+    <circle cx="28" cy="25" r="6" fill="#3f3f46"/>
+    <circle cx="48" cy="25" r="6" fill="#3f3f46"/>
+    <circle cx="68" cy="25" r="6" fill="#38bdf8" fill-opacity="0.9"/>
+    <text x="500" y="30" text-anchor="middle" font-size="13" fill="#71717a">pablo@mateOS — fastfetch</text>
+    <line x1="0" y1="50" x2="1000" y2="50" stroke="#ffffff" stroke-opacity="0.07"/>
+
+    <!-- Logo line-art (guiño a Arch), se dibuja -->
+    <path d="M180 112 L300 268 L60 268 Z" fill="#38bdf8" fill-opacity="0.05" stroke="#38bdf8" stroke-opacity="0.85" stroke-width="2" stroke-linejoin="round" pathLength="100" stroke-dasharray="100" stroke-dashoffset="0">
+      <animate attributeName="stroke-dashoffset" values="100;0" dur="1.3s" begin="0s" fill="freeze"/>
+    </path>
+    <path d="M180 152 L238 268 M180 152 L122 268" fill="none" stroke="#e4e4e7" stroke-opacity="0.5" stroke-width="1.75" stroke-linecap="round" pathLength="100" stroke-dasharray="100" stroke-dashoffset="0">
+      <animate attributeName="stroke-dashoffset" values="100;0" dur="1.3s" begin="0.25s" fill="freeze"/>
+    </path>
+
+    <!-- fastfetch info -->
+    <g font-size="14">
+      <text x="360" y="78" fill="#38bdf8" font-weight="700">pablo</text>
+      <text x="408" y="78" fill="#52525b">@</text>
+      <text x="420" y="78" fill="#38bdf8" font-weight="700">mateOS</text>
+      <text x="360" y="98" fill="#3f3f46">────────────────────────────────</text>
+
+      <g>
+        <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.4s" fill="freeze"/>
+        <text x="360" y="124" fill="#38bdf8">OS</text><text x="476" y="124" fill="#d4d4d8">Arch Linux · x86_64</text>
+      </g>
+      <g>
+        <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.52s" fill="freeze"/>
+        <text x="360" y="148" fill="#38bdf8">Desktop</text><text x="476" y="148" fill="#d4d4d8">mateOS  (propio)</text>
+      </g>
+      <g>
+        <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.64s" fill="freeze"/>
+        <text x="360" y="172" fill="#38bdf8">WM</text><text x="476" y="172" fill="#d4d4d8">Hyprland · config en Lua</text>
+      </g>
+      <g>
+        <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.76s" fill="freeze"/>
+        <text x="360" y="196" fill="#38bdf8">Shell UI</text><text x="476" y="196" fill="#d4d4d8">Quickshell / QML — hecho a mano</text>
+      </g>
+      <g>
+        <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.88s" fill="freeze"/>
+        <text x="360" y="220" fill="#38bdf8">Entorno</text><text x="476" y="220" fill="#d4d4d8">Neovim · kitty · pacman + paru</text>
+      </g>
+      <g>
+        <animate attributeName="opacity" values="0;1" dur="0.4s" begin="1s" fill="freeze"/>
+        <text x="360" y="244" fill="#38bdf8">Boot</text><text x="476" y="244" fill="#d4d4d8">Limine + UKI + Secure Boot propio</text>
+      </g>
+      <g>
+        <animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.12s" fill="freeze"/>
+        <text x="360" y="268" fill="#38bdf8">Focus</text><text x="476" y="268" fill="#d4d4d8">Fintech · IA/MCP · Self-hosting</text>
+      </g>
+    </g>
+
+    <!-- Paleta -->
+    <g>
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.3s" fill="freeze"/>
+      <rect x="64"  y="284" width="13" height="12" rx="2" fill="#fafafa" fill-opacity="0.9"/>
+      <rect x="82"  y="284" width="13" height="12" rx="2" fill="#fafafa" fill-opacity="0.72"/>
+      <rect x="100" y="284" width="13" height="12" rx="2" fill="#fafafa" fill-opacity="0.56"/>
+      <rect x="118" y="284" width="13" height="12" rx="2" fill="#fafafa" fill-opacity="0.42"/>
+      <rect x="136" y="284" width="13" height="12" rx="2" fill="#fafafa" fill-opacity="0.3"/>
+      <rect x="154" y="284" width="13" height="12" rx="2" fill="#fafafa" fill-opacity="0.2"/>
+      <rect x="172" y="284" width="13" height="12" rx="2" fill="#38bdf8" fill-opacity="0.9"/>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="999" height="299" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
+</svg>
