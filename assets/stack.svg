@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="160" viewBox="0 0 1000 160" fill="none" role="img" aria-label="Stack técnico">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="232" viewBox="0 0 1000 232" fill="none" role="img" aria-label="Habilidades técnicas">
   <defs>
     <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0a0a0b"/>
@@ -7,30 +7,60 @@
     <pattern id="grid2" width="30" height="30" patternUnits="userSpaceOnUse">
       <path d="M30 0H0V30" fill="none" stroke="#ffffff" stroke-opacity="0.03"/>
     </pattern>
-    <clipPath id="round2"><rect width="1000" height="160" rx="18"/></clipPath>
+    <clipPath id="round2"><rect width="1000" height="232" rx="18"/></clipPath>
   </defs>
 
-  <g clip-path="url(#round2)">
-    <rect width="1000" height="160" fill="url(#bg2)"/>
-    <rect width="1000" height="160" fill="url(#grid2)"/>
+  <g clip-path="url(#round2)" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <rect width="1000" height="232" fill="url(#bg2)"/>
+    <rect width="1000" height="232" fill="url(#grid2)"/>
 
-    <line x1="340" y1="34" x2="340" y2="126" stroke="#ffffff" stroke-opacity="0.07"/>
-    <line x1="668" y1="34" x2="668" y2="126" stroke="#ffffff" stroke-opacity="0.07"/>
+    <line x1="284" y1="34" x2="284" y2="210" stroke="#ffffff" stroke-opacity="0.07"/>
+    <line x1="532" y1="34" x2="532" y2="210" stroke="#ffffff" stroke-opacity="0.07"/>
+    <line x1="776" y1="34" x2="776" y2="210" stroke="#ffffff" stroke-opacity="0.07"/>
 
-    <text x="64" y="46" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#71717a" letter-spacing="3">BACKEND</text>
-    <text x="64" y="84" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" fill="#e4e4e7">Python · FastAPI</text>
-    <text x="64" y="110" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" fill="#e4e4e7">C# · .NET</text>
-    <text x="64" y="136" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" fill="#e4e4e7">PHP</text>
+    <!-- LENGUAJES -->
+    <text x="64" y="46" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="12" fill="#71717a" letter-spacing="3">LENGUAJES</text>
+    <g font-size="15.5" fill="#e4e4e7">
+      <text x="64" y="80">Python</text>
+      <text x="64" y="106">TypeScript</text>
+      <text x="64" y="132">C#</text>
+      <text x="64" y="158">PHP</text>
+      <text x="64" y="184">SQL · PL/pgSQL</text>
+      <text x="64" y="210">Lua</text>
+    </g>
 
-    <text x="380" y="46" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#71717a" letter-spacing="3">FRONTEND</text>
-    <text x="380" y="84" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" fill="#e4e4e7">TypeScript</text>
-    <text x="380" y="110" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" fill="#e4e4e7">Astro · Tailwind</text>
-    <text x="380" y="136" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" fill="#e4e4e7">Tauri</text>
+    <!-- BACKEND -->
+    <text x="300" y="46" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="12" fill="#71717a" letter-spacing="3">BACKEND</text>
+    <g font-size="15.5" fill="#e4e4e7">
+      <text x="300" y="80">FastAPI</text>
+      <text x="300" y="106">.NET · Aspire</text>
+      <text x="300" y="132">PostgreSQL</text>
+      <text x="300" y="158">OAuth 2.1</text>
+      <text x="300" y="184">RLS multiempresa</text>
+      <text x="300" y="210">pandas</text>
+    </g>
 
-    <text x="708" y="46" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" fill="#71717a" letter-spacing="3">INFRA &amp; LINUX</text>
-    <text x="708" y="84" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" fill="#e4e4e7">Supabase · PostgreSQL</text>
-    <text x="708" y="110" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" fill="#e4e4e7">Docker · Railway</text>
-    <text x="708" y="136" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" fill="#e4e4e7">Arch · NixOS</text>
+    <!-- FRONTEND & APPS -->
+    <text x="548" y="46" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="12" fill="#71717a" letter-spacing="3">FRONTEND &amp; APPS</text>
+    <g font-size="15.5" fill="#e4e4e7">
+      <text x="548" y="80">React · Next.js</text>
+      <text x="548" y="106">Astro · Tailwind</text>
+      <text x="548" y="132">Tauri</text>
+      <text x="548" y="158">Electron</text>
+      <text x="548" y="184">Shopify</text>
+      <text x="548" y="210">Vite</text>
+    </g>
+
+    <!-- INFRA & IA -->
+    <text x="792" y="46" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="12" fill="#71717a" letter-spacing="3">INFRA &amp; IA</text>
+    <g font-size="15.5" fill="#e4e4e7">
+      <text x="792" y="80">Docker · Railway</text>
+      <text x="792" y="106">Supabase</text>
+      <text x="792" y="132">Servidores MCP</text>
+      <text x="792" y="158">Nix · NixOS</text>
+      <text x="792" y="184">Arch Linux</text>
+      <text x="792" y="210">Git</text>
+    </g>
   </g>
-  <rect x="0.5" y="0.5" width="999" height="159" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
+  <rect x="0.5" y="0.5" width="999" height="231" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
 </svg>
