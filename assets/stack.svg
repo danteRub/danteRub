@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="168" viewBox="0 0 1000 168" fill="none" role="img" aria-label="Stack técnico">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="accent2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#6366f1"/>
+    </linearGradient>
+    <pattern id="grid2" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#ffffff" stroke-opacity="0.04"/>
+    </pattern>
+    <clipPath id="round2"><rect width="1000" height="168" rx="18"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#round2)">
+    <rect width="1000" height="168" fill="url(#bg2)"/>
+    <rect width="1000" height="168" fill="url(#grid2)"/>
+    <rect x="0" y="0" width="6" height="168" fill="url(#accent2)"/>
+
+    <line x1="340" y1="36" x2="340" y2="132" stroke="#ffffff" stroke-opacity="0.08"/>
+    <line x1="668" y1="36" x2="668" y2="132" stroke="#ffffff" stroke-opacity="0.08"/>
+
+    <!-- Columna 1 -->
+    <text x="64" y="48" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#38bdf8" letter-spacing="3">BACKEND</text>
+    <text x="64" y="86" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#e2e8f0">Python · FastAPI</text>
+    <text x="64" y="114" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#e2e8f0">C# · .NET</text>
+    <text x="64" y="142" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#e2e8f0">PHP</text>
+
+    <!-- Columna 2 -->
+    <text x="380" y="48" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#38bdf8" letter-spacing="3">FRONTEND</text>
+    <text x="380" y="86" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#e2e8f0">TypeScript</text>
+    <text x="380" y="114" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#e2e8f0">Astro · Tailwind</text>
+    <text x="380" y="142" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#e2e8f0">Tauri</text>
+
+    <!-- Columna 3 -->
+    <text x="708" y="48" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#38bdf8" letter-spacing="3">INFRA &amp; LINUX</text>
+    <text x="708" y="86" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#e2e8f0">Supabase · PostgreSQL</text>
+    <text x="708" y="114" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#e2e8f0">Docker · Railway</text>
+    <text x="708" y="142" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#e2e8f0">Arch · NixOS</text>
+  </g>
+</svg>
