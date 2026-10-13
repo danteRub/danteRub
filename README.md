@@ -11,27 +11,33 @@
 
 <br/>
 
-### En qué trabajo
+### 🎯 Destacados
 
-- **Software de gestión y fintech** — plataformas contables y de facturación multiempresa, aislamiento de datos por cliente, integración con ERPs y automatización documental (contratos y firma digital).
-- **Producto web y de escritorio** — aplicaciones con TypeScript, Astro y Supabase, y clientes de escritorio en .NET y Tauri.
-- **Comercio electrónico** — tiendas y temas a medida sobre Shopify.
-- **Infraestructura de agentes de IA** — servidores MCP, bots y orquestación de agentes para flujos de negocio reales.
-- **Infraestructura y self-hosting** — Supabase autoalojado, Docker y Railway; entornos reproducibles.
-
-<br/>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/danteRub/danteRub/main/assets/stack.svg" alt="Stack técnico" width="100%" />
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/danteRub/danteRub/main/assets/stats.svg" alt="Estadísticas" width="100%" />
-</p>
+- **Plataforma contable multiempresa** — API con OAuth 2.1, aislamiento de datos por cliente con **RLS en PostgreSQL** y sincronización versionada e **independiente del ERP**.
+- **Infraestructura de agentes de IA** — **servidores MCP**, *gateway* y *workspaces* de agentes por área de negocio (ventas, proveedores, marketing, diseño).
+- **Producto a medida de punta a punta** — del backend (**FastAPI** / **.NET con Aspire**) al frontend (**Astro**, **React**, **Tauri**) y el despliegue (**Docker**, **Railway**, **Supabase** autoalojado).
+- **Automatización documental** — generación de contratos y firma digital (**DocuSign**), integración con ERPs.
+- **mateOS** — escritorio propio sobre **Arch Linux**: Hyprland + un shell hecho a mano en **Quickshell**, con su propio sistema de diseño.
 
 <br/>
 
-### Organizaciones & contacto
+### 🧠 Habilidades
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/danteRub/danteRub/main/assets/stack.svg" alt="Habilidades técnicas" width="100%" />
+</p>
+
+<br/>
+
+### 📊 En números
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/danteRub/danteRub/main/assets/stats.svg" alt="Estadísticas (datos reales, incluidos repos privados)" width="100%" />
+</p>
+
+<br/>
+
+### 🏢 Organizaciones & contacto
 
 **Onmi-Dev** · desarrollo de software a medida — [github.com/Onmi-Dev](https://github.com/Onmi-Dev)
 **NewMateOS** · escritorio Linux propio — [github.com/NewMateOS](https://github.com/NewMateOS)
@@ -40,8 +46,7 @@
 
 <br/>
 
-### Open source & cacharreo
+### 🐧 Open source & cacharreo
 
-Fuera del trabajo vivo en la terminal: Arch y NixOS, y **mateOS**, un escritorio propio sobre Arch
-(Hyprland + un shell hecho a mano en Quickshell, con su propio sistema de diseño). En público:
+Fuera del trabajo vivo en la terminal: Arch y NixOS. En público:
 [**arch-btrfs-installer**](https://github.com/danteRub/arch-btrfs-installer) — un instalador de Arch sobre btrfs.
