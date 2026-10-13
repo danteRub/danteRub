@@ -25,6 +25,10 @@
   <img src="https://raw.githubusercontent.com/danteRub/danteRub/main/assets/stack.svg" alt="Stack técnico" width="100%" />
 </p>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/danteRub/danteRub/main/assets/stats.svg" alt="Estadísticas" width="100%" />
+</p>
+
 <br/>
 
 ### Organizaciones & contacto
