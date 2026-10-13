@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" fill="none" role="img" aria-label="pablo@mateOS — sesión de terminal">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="760" viewBox="0 0 1000 760" fill="none" role="img" aria-label="pablo@mateOS — sesión de terminal">
   <defs>
     <linearGradient id="dbg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#08080a"/>
@@ -7,35 +7,40 @@
     <pattern id="dgrid" width="30" height="30" patternUnits="userSpaceOnUse">
       <path d="M30 0H0V30" fill="none" stroke="#ffffff" stroke-opacity="0.025"/>
     </pattern>
-    <clipPath id="dround"><rect width="1000" height="600" rx="16"/></clipPath>
+    <clipPath id="dround"><rect width="1000" height="760" rx="16"/></clipPath>
+    <clipPath id="logoClip">
+      <rect x="40" y="80" width="140" height="132">
+        <animate attributeName="y" values="212;80" dur="0.9s" begin="0.1s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.7 0.2 1"/>
+        <animate attributeName="height" values="0;132" dur="0.9s" begin="0.1s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.7 0.2 1"/>
+      </rect>
+    </clipPath>
   </defs>
 
   <g clip-path="url(#dround)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">
-    <rect width="1000" height="600" fill="url(#dbg)"/>
-    <rect width="1000" height="600" fill="url(#dgrid)"/>
+    <rect width="1000" height="760" fill="url(#dbg)"/>
+    <rect width="1000" height="760" fill="url(#dgrid)"/>
 
     <!-- Barra de título -->
     <circle cx="26" cy="18" r="6" fill="#3f3f46"/>
     <circle cx="46" cy="18" r="6" fill="#3f3f46"/>
     <circle cx="66" cy="18" r="6" fill="#38bdf8" fill-opacity="0.9"/>
-    <text x="500" y="23" text-anchor="middle" font-size="12.5" fill="#52525b">pablo@mateOS: tmux — 1 sesión, 3 ventanas</text>
+    <text x="500" y="23" text-anchor="middle" font-size="12.5" fill="#52525b">pablo@mateOS: tmux — 1 sesión, 4 ventanas</text>
     <line x1="0" y1="34" x2="1000" y2="34" stroke="#ffffff" stroke-opacity="0.07"/>
 
-    <!-- Bordes de panes (tmux) -->
-    <line x1="512" y1="34" x2="512" y2="396" stroke="#ffffff" stroke-opacity="0.07"/>
-    <line x1="0" y1="396" x2="1000" y2="396" stroke="#ffffff" stroke-opacity="0.07"/>
+    <!-- Bordes de panes -->
+    <line x1="512" y1="34" x2="512" y2="390" stroke="#ffffff" stroke-opacity="0.07"/>
+    <line x1="0" y1="390" x2="1000" y2="390" stroke="#ffffff" stroke-opacity="0.07"/>
+    <line x1="0" y1="560" x2="1000" y2="560" stroke="#ffffff" stroke-opacity="0.07"/>
 
     <!-- ============ PANE A: fastfetch ============ -->
     <text x="20" y="58" font-size="13.5" fill="#22c55e">❯</text>
     <text x="36" y="58" font-size="13.5" fill="#e4e4e7">fastfetch</text>
 
-    <!-- logo -->
-    <path d="M104 92 L156 210 L52 210 Z" fill="#38bdf8" fill-opacity="0.05" stroke="#38bdf8" stroke-opacity="0.85" stroke-width="2" stroke-linejoin="round" pathLength="100" stroke-dasharray="100" stroke-dashoffset="0">
-      <animate attributeName="stroke-dashoffset" values="100;0" dur="1.2s" begin="0s" fill="freeze"/>
-    </path>
-    <path d="M104 126 L138 210 M104 126 L70 210" fill="none" stroke="#e4e4e7" stroke-opacity="0.45" stroke-width="1.6" stroke-linecap="round" pathLength="100" stroke-dasharray="100" stroke-dashoffset="0">
-      <animate attributeName="stroke-dashoffset" values="100;0" dur="1.2s" begin="0.2s" fill="freeze"/>
-    </path>
+    <!-- logo Arch (relleno + muesca), reveal de abajo arriba -->
+    <g clip-path="url(#logoClip)">
+      <path d="M104 84 C118 124 140 182 156 208 L52 208 C68 182 90 124 104 84 Z M104 150 L128 208 L80 208 Z"
+            fill="#38bdf8" fill-opacity="0.14" fill-rule="evenodd" stroke="#38bdf8" stroke-opacity="0.9" stroke-width="2" stroke-linejoin="round"/>
+    </g>
 
     <!-- info -->
     <g font-size="13">
@@ -49,7 +54,6 @@
       <text x="200" y="238" fill="#38bdf8">Pkg</text><text x="300" y="238" fill="#d4d4d8">pacman · paru</text>
       <text x="200" y="258" fill="#38bdf8">Boot</text><text x="300" y="258" fill="#d4d4d8">Limine · UKI · SB</text>
     </g>
-    <!-- paleta -->
     <g>
       <rect x="200" y="286" width="15" height="13" rx="2" fill="#fafafa" fill-opacity="0.9"/>
       <rect x="221" y="286" width="15" height="13" rx="2" fill="#fafafa" fill-opacity="0.68"/>
@@ -90,14 +94,8 @@
     </g>
 
     <g font-size="12.5" fill="#71717a" text-anchor="end">
-      <text x="896" y="110">24</text>
-      <text x="896" y="132">19</text>
-      <text x="896" y="154">10</text>
-      <text x="896" y="176">8</text>
-      <text x="896" y="198">8</text>
-      <text x="896" y="220">7</text>
-      <text x="896" y="242">6</text>
-      <text x="896" y="264">5</text>
+      <text x="896" y="110">24</text><text x="896" y="132">19</text><text x="896" y="154">10</text><text x="896" y="176">8</text>
+      <text x="896" y="198">8</text><text x="896" y="220">7</text><text x="896" y="242">6</text><text x="896" y="264">5</text>
     </g>
 
     <line x1="532" y1="282" x2="900" y2="282" stroke="#ffffff" stroke-opacity="0.08"/>
@@ -105,43 +103,54 @@
     <text x="900" y="304" font-size="12.5" fill="#d4d4d8" text-anchor="end">14.0M bytes · 36 repos</text>
 
     <!-- ============ PANE C: systemctl ============ -->
-    <text x="20" y="422" font-size="13.5" fill="#22c55e">❯</text>
-    <text x="36" y="422" font-size="13.5" fill="#e4e4e7">systemctl --user list-units --state=running</text>
+    <text x="20" y="414" font-size="13.5" fill="#22c55e">❯</text>
+    <text x="36" y="414" font-size="13.5" fill="#e4e4e7">systemctl --user list-units --state=running</text>
 
     <g font-size="13">
-      <circle cx="26" cy="450" r="4.5" fill="#22c55e"><animate attributeName="fill-opacity" values="1;0.5;1" dur="3s" repeatCount="indefinite"/></circle>
-      <text x="42" y="454" fill="#fafafa">onmi-contabilidad.service</text>
-      <text x="340" y="454" fill="#22c55e">active (running)</text>
-      <text x="520" y="454" fill="#71717a">OAuth 2.1 · RLS · multiempresa</text>
+      <circle cx="26" cy="438" r="4.5" fill="#22c55e"><animate attributeName="fill-opacity" values="1;0.5;1" dur="3s" repeatCount="indefinite"/></circle>
+      <text x="42" y="442" fill="#fafafa">contabilidad.service</text>
+      <text x="340" y="442" fill="#22c55e">active (running)</text>
+      <text x="520" y="442" fill="#71717a">OAuth 2.1 · RLS · multiempresa</text>
 
-      <circle cx="26" cy="476" r="4.5" fill="#22c55e"><animate attributeName="fill-opacity" values="1;0.5;1" dur="3s" begin="0.4s" repeatCount="indefinite"/></circle>
-      <text x="42" y="480" fill="#fafafa">onmi-inmobiliaria.service</text>
-      <text x="340" y="480" fill="#22c55e">active (running)</text>
-      <text x="520" y="480" fill="#71717a">Astro · Supabase · PostgreSQL</text>
+      <circle cx="26" cy="464" r="4.5" fill="#22c55e"><animate attributeName="fill-opacity" values="1;0.5;1" dur="3s" begin="0.4s" repeatCount="indefinite"/></circle>
+      <text x="42" y="468" fill="#fafafa">inmobiliaria.service</text>
+      <text x="340" y="468" fill="#22c55e">active (running)</text>
+      <text x="520" y="468" fill="#71717a">Astro · Supabase · PostgreSQL</text>
 
-      <circle cx="26" cy="502" r="4.5" fill="#22c55e"><animate attributeName="fill-opacity" values="1;0.5;1" dur="3s" begin="0.8s" repeatCount="indefinite"/></circle>
-      <text x="42" y="506" fill="#fafafa">sec-agentes.target</text>
-      <text x="340" y="506" fill="#22c55e">active (running)</text>
-      <text x="520" y="506" fill="#71717a">servidores MCP · gateway · bots</text>
+      <circle cx="26" cy="490" r="4.5" fill="#22c55e"><animate attributeName="fill-opacity" values="1;0.5;1" dur="3s" begin="0.8s" repeatCount="indefinite"/></circle>
+      <text x="42" y="494" fill="#fafafa">agentes-ia.target</text>
+      <text x="340" y="494" fill="#22c55e">active (running)</text>
+      <text x="520" y="494" fill="#71717a">servidores MCP · gateway · bots</text>
 
-      <circle cx="26" cy="528" r="4.5" fill="#22c55e"><animate attributeName="fill-opacity" values="1;0.5;1" dur="3s" begin="1.2s" repeatCount="indefinite"/></circle>
-      <text x="42" y="532" fill="#fafafa">sec-shop.service</text>
-      <text x="340" y="532" fill="#22c55e">active (running)</text>
-      <text x="520" y="532" fill="#71717a">Shopify · Liquid · tema a medida</text>
+      <circle cx="26" cy="516" r="4.5" fill="#22c55e"><animate attributeName="fill-opacity" values="1;0.5;1" dur="3s" begin="1.2s" repeatCount="indefinite"/></circle>
+      <text x="42" y="520" fill="#fafafa">ecommerce.service</text>
+      <text x="340" y="520" fill="#22c55e">active (running)</text>
+      <text x="520" y="520" fill="#71717a">Shopify · Liquid · tema a medida</text>
 
-      <circle cx="26" cy="554" r="4.5" fill="#22c55e"><animate attributeName="fill-opacity" values="1;0.5;1" dur="3s" begin="1.6s" repeatCount="indefinite"/></circle>
-      <text x="42" y="558" fill="#fafafa">mateos-desktop.service</text>
-      <text x="340" y="558" fill="#22c55e">active (running)</text>
-      <text x="520" y="558" fill="#71717a">Hyprland · Quickshell · .NET</text>
+      <circle cx="26" cy="542" r="4.5" fill="#22c55e"><animate attributeName="fill-opacity" values="1;0.5;1" dur="3s" begin="1.6s" repeatCount="indefinite"/></circle>
+      <text x="42" y="546" fill="#fafafa">mateos-desktop.service</text>
+      <text x="340" y="546" fill="#22c55e">active (running)</text>
+      <text x="520" y="546" fill="#71717a">Hyprland · Quickshell · .NET</text>
+    </g>
+
+    <!-- ============ PANE D: git log ============ -->
+    <text x="20" y="584" font-size="13.5" fill="#22c55e">❯</text>
+    <text x="36" y="584" font-size="13.5" fill="#e4e4e7">git log --oneline -5</text>
+
+    <g font-size="13">
+      <text x="20" y="610" fill="#3f3f46">a1b9f2e</text><text x="92" y="610" fill="#38bdf8">feat</text><text x="124" y="610" fill="#a1a1aa">(contabilidad): sync versionada independiente del ERP</text>
+      <text x="20" y="632" fill="#3f3f46">7c3d1a4</text><text x="92" y="632" fill="#38bdf8">feat</text><text x="124" y="632" fill="#a1a1aa">(agentes-ia): gateway MCP + workspaces por área</text>
+      <text x="20" y="654" fill="#3f3f46">4e8b0c9</text><text x="92" y="654" fill="#38bdf8">feat</text><text x="124" y="654" fill="#a1a1aa">(inmobiliaria): propiedades con RLS en Supabase</text>
+      <text x="20" y="676" fill="#3f3f46">9f2a6d1</text><text x="92" y="676" fill="#38bdf8">feat</text><text x="124" y="676" fill="#a1a1aa">(mateos): shell Quickshell + sistema de diseño propio</text>
+      <text x="20" y="698" fill="#3f3f46">d0a4f88</text><text x="92" y="698" fill="#eab308">chore</text><text x="124" y="698" fill="#a1a1aa">(infra): Supabase autoalojado · Railway · Docker</text>
     </g>
 
     <!-- ============ Barra de estado tmux ============ -->
-    <rect x="0" y="568" width="1000" height="32" fill="#15803d"/>
-    <rect x="0" y="568" width="92" height="32" fill="#22c55e"/>
-    <text x="46" y="588" text-anchor="middle" font-size="12.5" font-weight="700" fill="#052e16">[onmi]</text>
-    <text x="108" y="588" font-size="12.5" fill="#bbf7d0">0:sys  1:code  2:infra</text>
-    <text x="252" y="588" font-size="12.5" fill="#f0fdf4" font-weight="700">*</text>
-    <text x="980" y="588" text-anchor="end" font-size="12.5" fill="#dcfce7">pablo@mateOS · Murcia · 36 repos · 1.066 PRs · 2023</text>
+    <rect x="0" y="724" width="1000" height="36" fill="#15803d"/>
+    <rect x="0" y="724" width="92" height="36" fill="#22c55e"/>
+    <text x="46" y="746" text-anchor="middle" font-size="12.5" font-weight="700" fill="#052e16">[onmi]</text>
+    <text x="108" y="746" font-size="12.5" fill="#bbf7d0">0:sys  1:code  2:infra  3:git</text>
+    <text x="980" y="746" text-anchor="end" font-size="12.5" fill="#dcfce7">pablo@mateOS · Murcia · 36 repos · 1.066 PRs · 2023</text>
   </g>
-  <rect x="0.5" y="0.5" width="999" height="599" rx="16" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
+  <rect x="0.5" y="0.5" width="999" height="759" rx="16" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
 </svg>
