@@ -8,7 +8,9 @@
       <path d="M30 0H0V30" fill="none" stroke="#ffffff" stroke-opacity="0.03"/>
     </pattern>
     <clipPath id="round3"><rect width="1000" height="272" rx="18"/></clipPath>
-    <clipPath id="barclip"><rect x="60" y="196" width="880" height="12" rx="6"/></clipPath>
+    <clipPath id="barclip"><rect x="60" y="196" width="880" height="12" rx="6">
+      <animate attributeName="width" values="0;880" dur="1s" begin="0.25s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.2 0.7 0.2 1"/>
+    </rect></clipPath>
   </defs>
 
   <g clip-path="url(#round3)">
@@ -17,6 +19,7 @@
 
     <!-- Métricas -->
     <g font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif">
+      <animate attributeName="opacity" values="0;1" dur="0.7s" begin="0.1s" fill="freeze"/>
       <text x="64" y="92" font-size="46" font-weight="700" fill="#fafafa">36</text>
       <text x="64" y="116" font-size="12" fill="#71717a" letter-spacing="2">PROYECTOS</text>
 
