@@ -11,7 +11,7 @@
 
 <br/>
 
-### 🎯 Destacados
+### Destacados
 
 - **Plataforma contable multiempresa** — API con OAuth 2.1, aislamiento de datos por cliente con **RLS en PostgreSQL** y sincronización versionada e **independiente del ERP**.
 - **Infraestructura de agentes de IA** — **servidores MCP**, *gateway* y *workspaces* de agentes por área de negocio (ventas, proveedores, marketing, diseño).
@@ -21,7 +21,7 @@
 
 <br/>
 
-### 🧠 Habilidades
+### Habilidades
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/danteRub/danteRub/main/assets/stack.svg" alt="Habilidades técnicas" width="100%" />
@@ -29,7 +29,7 @@
 
 <br/>
 
-### 📊 En números
+### En números
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/danteRub/danteRub/main/assets/stats.svg" alt="Estadísticas (datos reales, incluidos repos privados)" width="100%" />
@@ -37,7 +37,7 @@
 
 <br/>
 
-### 🏢 Organizaciones & contacto
+### Organizaciones & contacto
 
 **Onmi-Dev** · desarrollo de software a medida — [github.com/Onmi-Dev](https://github.com/Onmi-Dev)
 **NewMateOS** · escritorio Linux propio — [github.com/NewMateOS](https://github.com/NewMateOS)
@@ -46,7 +46,7 @@
 
 <br/>
 
-### 🐧 Open source & cacharreo
+### Open source & cacharreo
 
 Fuera del trabajo vivo en la terminal: Arch y NixOS. En público:
 [**arch-btrfs-installer**](https://github.com/danteRub/arch-btrfs-installer) — un instalador de Arch sobre btrfs.
