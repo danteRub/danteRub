@@ -5,8 +5,7 @@
 </p>
 
 <p align="center">
-  Diseño y construyo producto de negocio de principio a fin: del modelo de datos y la API<br/>
-  hasta la interfaz, el despliegue y la infraestructura que lo sostiene.
+  <img src="https://raw.githubusercontent.com/danteRub/danteRub/main/assets/dashboard.svg" alt="pablo@mateOS — sesión de terminal: fastfetch, lenguajes y servicios" width="100%" />
 </p>
 
 <br/>
@@ -29,14 +28,6 @@
 
 <br/>
 
-### En números
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/danteRub/danteRub/main/assets/stats.svg" alt="Estadísticas (datos reales, incluidos repos privados)" width="100%" />
-</p>
-
-<br/>
-
 ### Organizaciones & contacto
 
 **Onmi-Dev** · desarrollo de software a medida — [github.com/Onmi-Dev](https://github.com/Onmi-Dev)
@@ -46,11 +37,6 @@
 
 <br/>
 
-### Open source & cacharreo
+### Open source
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/danteRub/danteRub/main/assets/terminal.svg" alt="pablo@mateOS — fastfetch" width="100%" />
-</p>
-
-Fuera del trabajo vivo en la terminal: Arch y NixOS, y **mateOS**, mi escritorio propio. En público:
-[**arch-btrfs-installer**](https://github.com/danteRub/arch-btrfs-installer) — un instalador de Arch sobre btrfs.
+[**arch-btrfs-installer**](https://github.com/danteRub/arch-btrfs-installer) — un instalador de Arch Linux sobre btrfs.
